@@ -37,6 +37,24 @@ template, you can ensure compatibility with the autograding system and
 maximize your score.
 
 
+## Assignments
+
+### **Assignment 5**: Provide Team Name and Preferred Presentation Date (2 points)
+
+* **Objective**:
+  Submit your team information for the upcoming class project by completing a YAML file.
+
+* **Details**:
+  * Project 2 submission is handled by GitHub classroom.
+    Please use https://classroom.github.com/a/___ to join a project.
+  * Edit the file `src/a5.yaml` to include:
+    * A key `team` with the name of your project team.
+    * A key `date` with your preferred presentation date in the format
+      `Month DD`.
+  * This assignment ensures students begin forming groups and
+    scheduling their presentations early.
+
+
 ## Submission Guidelines
 
 1. Create a new repostiory based on this template by using the GitHub
