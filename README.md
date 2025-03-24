@@ -57,7 +57,7 @@ You may find [this tutorial on $n$-body
 problem](https://github.com/rndsrc/orbits-py/blob/main/demo.ipynb)
 useful.
 
-### Assignment 1: Create the Header File (2 points)
+### **Assignment 1**: Create the Header File (2 points)
 
 * **Objective:**
   Define the essential data types and function prototypes for your
@@ -77,6 +77,28 @@ useful.
     * What the scalar type represents.
     * The purpose of the vector structure.
     * The role of each function prototype.
+
+### **Assignment 2**: Implement the Acceleration Function (2 points)
+
+* **Objective:**
+  Implement the function `accelerate()` to compute the gravitational
+  acceleration acting on each body due to all the other bodies in the
+  $n$-body simulation.
+
+* **Details:**
+  * File Name: Create a file named "src/a2.c".
+  * Required Includes: Your file should include:
+    * The header file you created in Assignment 1 (a1.h).
+    * The math library header `<math.h>` to use functions such as `sqrt()`.
+  * Function Prototype:
+    You will implement the function with the following signature (as
+    declared in "src/a1.h"):
+    `void accelerate(scalar *m, vector *r, vector *a, int n);`
+  * The accelerate function calculates the gravitational acceleration
+    on each body in an $n$-body system.
+    The acceleration on the $i$-th body is computed by summing the
+    contributions from all other bodies $j$ (with $j \neq i$) according to
+    $\mathbf{a}_i = \sum m_j \frac{\mathbf{r}_i - \mathbf{r}_j)}{|\mathbf{r}_i - \mathbf{r}_j|^3}$.
 
 ### **Assignment 5**: Provide Team Name and Preferred Presentation Date (2 points)
 
