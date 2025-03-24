@@ -39,6 +39,24 @@ maximize your score.
 
 ## Assignments
 
+In this homework set, you will develop a leapfrog integration
+algorithm to simulate an $n$-body self-gravity problem.
+As we learned it class, the leapfrog method is widely used in
+computational physics for its excellent energy conservation properties
+in long-term simulations, making it ideal for gravitational dynamics.
+
+As a test case, the automated evaluation will use a three-body
+configuration with initial conditions that produce a stable figure-8
+orbit---a well-known and challenging benchmark for numerical
+integrators.
+Your goal is to implement the algorithm accurately and efficiently,
+ensuring that the simulation maintains stability and energy
+conservation over time.
+
+You may find [this tutorial on $n$-body
+problem](https://github.com/rndsrc/orbits-py/blob/main/demo.ipynb)
+useful.
+
 ### **Assignment 5**: Provide Team Name and Preferred Presentation Date (2 points)
 
 * **Objective**:
