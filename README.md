@@ -57,6 +57,27 @@ You may find [this tutorial on $n$-body
 problem](https://github.com/rndsrc/orbits-py/blob/main/demo.ipynb)
 useful.
 
+### Assignment 1: Create the Header File (2 points)
+
+* **Objective:**
+  Define the essential data types and function prototypes for your
+  $n$-body simulation by creating a header file ("src/a1.h") that will
+  be included in later assignments.
+
+* **Details:**
+  * File Name: Create a file named "src/a1.h".
+  * Content Requirements: In "src/a1.h", include the following definitions:
+    1. Type Definition: define a type alias `scalar` for `double`. I.e., `typedef double scalar;`.
+    2. Structure Definition: define a vector structure to represent a 3D vector with components `x`, `y`, and `z` of type `double`.
+    3. Function Prototypes: Declare the following function prototypes:
+       * `void accelerate(scalar *m, vector *r, vector *a, int n);`
+       * `void leapfrog(scalar *m, vector *r, vector *v, vector *a, int n, scalar dt);`
+  * Documentation:
+    Include clear comments explaining:
+    * What the scalar type represents.
+    * The purpose of the vector structure.
+    * The role of each function prototype.
+
 ### **Assignment 5**: Provide Team Name and Preferred Presentation Date (2 points)
 
 * **Objective**:
