@@ -120,6 +120,33 @@ useful.
   * Implement the kick-drift-kick leapfrog algorithm discussed in
     lecture ODE II.
 
+### **Assignment 4**: Develop a Driver Program for the Simulation (2 points)
+
+* **Objective:**
+  Implement a complete driver program that integrates the $n$-body
+  simulation using the leapfrog algorithm.
+  This assignment brings together the functions you implemented in
+  previous assignments (`accelerate()` and `leapfrog()`) and adds
+  functionality to display the evolving state of the system.
+
+* **Details:**
+  * File Name: Create a file named "src/a4.c".
+  * Required Includes: Your file should include:
+    * The header file you created in Assignment 1 ("a1.h").
+    * Standard libraries such as: `<stdlib.h>`, `<stdio.h>`, and `<math.h>`.
+  * Function Prototype:
+    You will implement the function with the following signature (as
+    declared in "src/a1.h"):
+    `void leapfrog(scalar *m, vector *r, vector *v, vector *a, int n, scalar dt);`
+  * Your program should take $n = 1000$ leapfrog steps over time
+    $t_\mathrm{final} = 2 \pi/3$.
+  * The mass and initial conditions should be:
+    * `m[] = {1,1,1};`
+    * `r[] = {{+0.9700436,-0.24308753,0}, {-0.9700436,+0.24308753,0}, {0,0,0}};`
+    * `v[] = {{+0.466203685,+0.43236573,0}, {+0.466203685,+0.43236573,0}, {-0.93240737,-0.86473146,0}};`
+  * You should print to `stdout` the position of all three particles
+    `x1 y1 z1 x2 y2 z2 x3 y3 z3` after each leapfrog step.
+
 ### **Assignment 5**: Provide Team Name and Preferred Presentation Date (2 points)
 
 * **Objective**:
