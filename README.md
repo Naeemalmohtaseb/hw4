@@ -16,13 +16,11 @@ equally to your overall grade.
 The grading breakdown is as follows:
 
 1. **Automated Evaluation (50%)**:
-   * Each assignment will be graded using `pytest`, an automated
-     testing framework.
+   * Each assignment will be graded using `make`.
    * The correctness of your solutions accounts for 1 point per
      assignment (5 points in total).
-   * You can run `pytest` in GitHub Codespaces or your local
-     development environment to verify your solutions before
-     submission.
+   * You can run `make` in GitHub Codespaces or your local development
+     environment to verify your solutions before submission.
 
 2. **Documentation and Coding Practices (50%)**:
    * The remaining 1 point per assignment (5 points total) will be
