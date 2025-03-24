@@ -88,7 +88,7 @@ useful.
 * **Details:**
   * File Name: Create a file named "src/a2.c".
   * Required Includes: Your file should include:
-    * The header file you created in Assignment 1 (a1.h).
+    * The header file you created in Assignment 1 ("a1.h").
     * The math library header `<math.h>` to use functions such as `sqrt()`.
   * Function Prototype:
     You will implement the function with the following signature (as
@@ -99,6 +99,26 @@ useful.
     The acceleration on the $i$-th body is computed by summing the
     contributions from all other bodies $j$ (with $j \neq i$) according to
     $\mathbf{a}_i = \sum m_j \frac{\mathbf{r}_i - \mathbf{r}_j)}{|\mathbf{r}_i - \mathbf{r}_j|^3}$.
+
+### **Assignment 3**: Implement the Leapfrog Integration Function (2 points)
+
+* **Objective:**
+  Implement the `leapfrog()` function to perform one integration step
+  of the $n$-body simulation using the leapfrog (or velocity Verlet)
+  algorithm.
+  This method is widely used in computational physics for its
+  stability and energy conservation properties.
+
+* **Details:**
+  * File Name: Create a file named "src/a3.c".
+  * Required Includes: Your file should include:
+    * The header file you created in Assignment 1 ("a1.h").
+  * Function Prototype:
+    You will implement the function with the following signature (as
+    declared in "src/a1.h"):
+    `void leapfrog(scalar *m, vector *r, vector *v, vector *a, int n, scalar dt);`
+  * Implement the kick-drift-kick leapfrog algorithm discussed in
+    lecture ODE II.
 
 ### **Assignment 5**: Provide Team Name and Preferred Presentation Date (2 points)
 
