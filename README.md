@@ -5,7 +5,7 @@ This homework set is worth **10 points** and is designed to test your
 understanding of topics that we've covered.
 The submission cutoff time is at **Thursday April 3rd, 11:59pm**
 Arizona time.
-Please use [this link](https://classroom.github.com/a/___) to
+Please use [this link](https://classroom.github.com/a/16sdd2i8) to
 accept it from GitHub Classroom.
 
 
@@ -152,7 +152,7 @@ useful.
 
 * **Details**:
   * Project 2 submission is handled by GitHub classroom.
-    Please use https://classroom.github.com/a/___ to join a project.
+    Please use https://classroom.github.com/a/KMYdNApn to join a project.
   * Edit the file `src/a5.yaml` to include:
     * A key `team` with the name of your project team.
     * A key `date` with your preferred presentation date in the format
